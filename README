@@ -1,0 +1,6 @@
+Including RegenerateSourceListGlobs.cmake in your CMake project should make
+GLOBs safe for use with source file lists.
+
+Including DoxygenTargetsTree.cmake in your CMake project creates, for each node
+in the directory tree, a target that generates doxygen documentation for the
+current subdirectory (recursively by default).
